@@ -8,13 +8,13 @@ A responsive and clean webpage using HTML and CSS technologies as well as the Bo
 
 ## Screenshots
 
-<img src="/imgs/Widescreen.png" alt="Widescreen in top page" style="max-width: 100px;">
+<img width= 700em; src="/imgs/Widescreen.png" alt="Widescreen in top page">
 
-<img src="/imgs/Widescreen%20scrolled.png" alt="Widescreen scrolled page" style="max-width: 100px;">
+<img width= 700em; src="/imgs/Widescreen%20scrolled.png" alt="Widescreen scrolled page">
 
-<img src="/imgs/Mobile-Top.png" alt="Mobile with Navbar collapsed" style="max-height: 100px;">
+<img width= 500em; src="/imgs/Mobile-Top.png" alt="Mobile with Navbar collapsed">
 
-<img src="/imgs/Mobile-scrolled.png" alt="Mobile with scrolled page" style="max-height: 100px;">
+<img width= 500em; src="/imgs/Mobile-scrolled.png" alt="Mobile with scrolled page">
 
-<img src="/imgs/Mobile-Navbar.png" alt="Navbar expanded" style="max-height: 100px;">
+<img width= 500em; src="/imgs/Mobile-Navbar.png" alt="Navbar expanded">
 

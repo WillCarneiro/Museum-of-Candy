@@ -9,4 +9,4 @@ using HTML and CSS technologies as well as the Bootstrap framework and a bit of 
 ## Screenshots
 
 ![Widescreen-top](/imgs/Widescreen.png)
-![Widescreen-page](/imgs/Widescreen scrolled.png)
+![Widescreen-page](/imgs/Widescreen_scrolled.png)

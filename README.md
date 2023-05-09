@@ -7,16 +7,14 @@ A responsive and clean webpage using HTML and CSS technologies as well as the Bo
 ###### The Web Developer Bootcamp 2023 is created by Colt Steele and is located on the website udemy.com
 
 ## Screenshots
-![Widescreen top](/imgs/Widescreen.png)
 
+<img src="/imgs/Widescreen.png" alt="Widescreen in top page" style="max-width: 100px;">
 
-![Widescreen page](/imgs/Widescreen%20scrolled.png)
+<img src="/imgs/Widescreen%20scrolled.png" alt="Widescreen scrolled page" style="max-width: 50%;">
 
+<img src="/imgs/Mobile-Top.png" alt="Mobile with Navbar collapsed" style="max-width: 100px;">
 
-![Mobile Top Page](/imgs/Mobile-Top.png)
+<img src="/imgs/Mobile-scrolled.png" alt="Mobile with scrolled page" style="max-width: 100px;">
 
+<img src="/imgs/Mobile-Navbar.png" alt="Navbar expanded" style="max-width: 100px;">
 
-![Mobile scrolled](/imgs/Mobile-scrolled.png)
-
-
-![Navbar](/imgs/Mobile-Navbar.png)

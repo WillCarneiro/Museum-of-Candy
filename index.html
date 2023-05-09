@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Museum of Candy</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+  <!-- Link do jQuery (***BEFORE BOOTSTRAP*****)-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="app.css">
+
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <nav id="mainNavbar" class="navbar navbar-expand-md py-0 fixed-top" data-bs-theme="dark">
+    <!--  -->
+    <a href="#" class="navbar-brand">CANDY</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">TICKETS</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="container-fluid px-0">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <!-- d-none (display none= the element disappear)and d-lg-block(display when large is block)-->
+        <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="./imgs/hand2.png" alt="donut in hand">
+      </div>
+    </div>
+  </section>
+  <section id="mainSection" class="container-fluid px-0">
+    <div class="row align-items-center lines">
+      <div class="col-md-6 order-2 order-md-1">
+        <img class="img-fluid" src="./imgs/milk.png" alt="Milk with Donuts">
+      </div>
+      <!-- he put order to swap in determined position and after medium it returns -->
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <!-- he needs the content below in the center again,
+          so he added one div with col-1 before and after/ or nest a class justify-content-center as above-->
+          <!-- <div class="col-1"></div> -->
+          <div class="col-10 col-lg-8 first-layer mb-5 mb-md-0">
+            <h2 class="">MUSEUM OF CANDY</h2>
+            <img src="./imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, corrupti. Molestiae amet
+              voluptate fugiat quia error similique neque praesentium dolore? Tempora earum eius aperiam beatae vel,
+              maxime nisi nihil a!
+              Temporibus voluptatum perspiciatis non fuga quaerat, asperiores nemo ut recusandae blanditiis inventore
+              similique, repudiandae cum! Nemo eveniet, at odio dolore sed ducimus animi eligendi minima perferendis
+              dolores quo sunt pariatur.</p>
+          </div>
+          <!-- <div class="col-1"></div> -->
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center lines">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 first-layer mb-5 mb-md-0">
+            <h2 class="">MUSEUM OF CANDY</h2>
+            <img src="./imgs/lolli_icon.png" alt="lollipop icon" class="d-none d-lg-inline">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, corrupti. Molestiae amet
+              voluptate fugiat quia error similique neque praesentium dolore? Tempora earum eius aperiam beatae vel,
+              maxime nisi nihil a!
+              Temporibus voluptatum perspiciatis non fuga quaerat, asperiores nemo ut recusandae blanditiis inventore
+              similique, repudiandae cum! Nemo eveniet, at odio dolore sed ducimus animi eligendi minima perferendis
+              dolores quo sunt pariatur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="./imgs/gumball.png" alt="Milk with Donuts">
+      </div>
+    </div>
+    <div class="row align-items-center lines">
+      <div class="col-md-6 order-2 order-md-1">
+        <img class="img-fluid" src="./imgs/sprinkles.png" alt="Milk with Donuts">
+      </div>
+      <!-- he put order to swap in determined position and after medium it returns -->
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <!-- he needs the content below in the center again,
+          so he added one div with col-1 before and after/ or nest a class justify-content-center as above-->
+          <!-- <div class="col-1"></div> -->
+          <div class="col-10 col-lg-8 first-layer mb-5 mb-md-0">
+            <h2 class="">MUSEUM OF CANDY</h2>
+            <img src="./imgs/lolli_icon.png" alt="lollipop icon" class="d-none d-lg-inline">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, corrupti. Molestiae amet
+              voluptate fugiat quia error similique neque praesentium dolore? Tempora earum eius aperiam beatae vel,
+              maxime nisi nihil a!
+              Temporibus voluptatum perspiciatis non fuga quaerat, asperiores nemo ut recusandae blanditiis inventore
+              similique, repudiandae cum! Nemo eveniet, at odio dolore sed ducimus animi eligendi minima perferendis
+              dolores quo sunt pariatur.</p>
+          </div>
+          <!-- <div class="col-1"></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap Js -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

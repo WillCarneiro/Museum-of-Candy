@@ -9,4 +9,5 @@ using HTML and CSS technologies as well as the Bootstrap framework and a bit of 
 ## Screenshots
 
 ![Widescreen-top](/imgs/Widescreen.png)
+<div></div>
 ![Widescreen-page](/imgs/Widescreen%20scrolled.png)
